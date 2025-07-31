@@ -26,10 +26,10 @@ The data displayed includes statistics on:
 There is also an option to view raw data 5 lines at a time if desired by the user and restart the code at the end.
 
 ### Files used
-bikeshare.py
-chicago.csv
-new_york_city.csv
-washington.csv
+- bikeshare.py
+- chicago.csv
+- new_york_city.csv
+- washington.csv
 
 ### Credits
 [pandas.DataFram.iloc document](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.iloc.html#pandas.DataFrame.iloc)
