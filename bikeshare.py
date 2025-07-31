@@ -157,6 +157,9 @@ def user_stats(df):
         print("\nThere is no gender data for this city!")
 
     # TO DO: Display earliest, most recent, and most common year of birth
+
+    """Try block created to ensure lack of birth year data does not
+    cause an error in the code"""
     try:
         earliest_birth_year = df['Birth Year'].min()
         most_recent_birth_year = df['Birth Year'].max()
